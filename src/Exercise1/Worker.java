@@ -1,8 +1,8 @@
 package Exercise1;
 
 class Worker {
-    protected String name;
-    protected String surname;
+    private String name;
+    private String surname;
     protected double pricePerHour;
 
     public Worker(String name, String surname, double pricePerHour) {
